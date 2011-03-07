@@ -16,7 +16,7 @@ module Babilu
   # to be used to generate the locales.js file
   def self.grep_javascript_files
     grep_output = ""
-    Dir.glob("public/**/**").select {|file| File.file?(file)}.each do |file|
+    Dir.glob("public/**/**.js").select {|file| File.file?(file)}.each do |file|
       File.open(file, 'r').each_with_index do |line, index|
         grep_output += line if line.include?('I18n.t(') || line.include?('I18n.translate(')
       end
