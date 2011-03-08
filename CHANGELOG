@@ -1,0 +1,6 @@
+== v0.2 ==
+* Improved locales.js generation by filtering the .js files for I18n.t references.
+
+== v0.1 ==
+* Initial Release
+
