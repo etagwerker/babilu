@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{babilu}
-  s.version = "0.2.2"
+  s.version = "0.3.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Tore Darell"]
-  s.date = %q{2011-03-20}
+  s.authors = ["Tore Darell", "Ernesto Tagwerker"]
+  s.date = %q{2011-03-29}
   s.description = %q{Babilu converts all your translations into JavaScript so you can use them on the client side. It mimicks the Ruby/Rails I18n API and works in pretty much the same way}
   s.email = %q{}
   s.extra_rdoc_files = [
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
     "test/js/test.html",
     "test/test_helper.rb"
   ]
-  s.homepage = %q{http://github.com/toretore/babilu}
+  s.homepage = %q{http://github.com/etagwerker/babilu}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
